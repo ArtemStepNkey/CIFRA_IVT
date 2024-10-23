@@ -30,7 +30,7 @@ def create_user_token(login: str, password: str) -> str:
 
     return token
 
-
+print("Hellow world")
 with app.app_context():
     token = create_user_token("login", "password")
     print("Encoded Token:", token)
