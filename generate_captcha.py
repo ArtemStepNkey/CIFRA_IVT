@@ -24,6 +24,7 @@ def generate_captcha_image(text):
 
 print("негры-пидорасы")
 
+print("BLYAT")
 captcha_text = generate_captcha_text()
 captcha_image_base64 = generate_captcha_image(captcha_text)
 print(f"Captcha Image (Base64): {captcha_image_base64}")
