@@ -1,5 +1,4 @@
 import time
-
 from flask import Flask
 from flask_jwt_extended import create_access_token, JWTManager, decode_token
 import uuid
