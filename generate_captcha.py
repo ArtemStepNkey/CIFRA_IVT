@@ -22,7 +22,6 @@ def generate_captcha_image(text):
     return img_base64
 
 
-print("негры-пидорасы")
 
 captcha_text = generate_captcha_text()
 captcha_image_base64 = generate_captcha_image(captcha_text)
